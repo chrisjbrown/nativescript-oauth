@@ -5,6 +5,7 @@ export * from './tns-oauth-interfaces';
 export declare var instance: TnsOAuth.ITnsAuthHelper;
 export declare function initOffice365(options: TnsOAuth.ITnsOAuthOptionsOffice365): Promise<any>;
 export declare function initFacebook(options: TnsOAuth.ITnsOAuthOptionsFacebook): Promise<any>;
+export declare function initGoodreads(options: TnsOAuth.ITnsOAuthOptionsGoodreads): Promise<any>;
 export declare function initGoogle(options: TnsOAuth.ITnsOAuthOptionsGoogle): Promise<any>;
 export declare function accessToken(): string;
 export declare function login(successPage?: string): Promise<string>;

@@ -41,5 +41,9 @@ export interface ITnsOAuthOptionsFacebook extends ITnsOAuthOptions {
     clientSecret: string;
 }
 
+export interface ITnsOAuthOptionsGoodreads extends ITnsOAuthOptions {
+    clientSecret: string;
+}
+
 export interface ITnsOAuthOptionsGoogle extends ITnsOAuthOptions {
 }
